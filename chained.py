@@ -1,7 +1,7 @@
 from dash import Dash, dcc, html, callback, Output, Input
 
 #import css
-stail=['https://codepen.io/chriddyp/pen/bWLwgP.css']c
+stail=['https://codepen.io/chriddyp/pen/bWLwgP.css']
 #initialize app
 app=Dash(__name__, external_stylesheets=stail)
 server=app.server
